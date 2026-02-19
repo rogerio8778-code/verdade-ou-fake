@@ -50,7 +50,9 @@ export const processContent = async (
   analysisType: UserAnalysisType = UserAnalysisType.FORENSIC, // Novo parâmetro com valor padrão
   userId?: string // Adicionado parâmetro userId
 ): Promise<AnalysisResult> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GEMINI_API_KEY
+});
   const model = "gemini-2.5-flash"; 
 
   // MODIFICADO: systemInstruction para suportar múltiplos tipos de análise

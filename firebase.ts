@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD1EInQbr2C8gQTKDdey-9lPbuZvjsBBkQ",
+  apiKey: "AIzaSyDLdjg1K23k8TJixv_xan999MQG3vPcyPE",
   authDomain: "verdade-ou-fake-319d3.firebaseapp.com",
   projectId: "verdade-ou-fake-319d3",
   storageBucket: "verdade-ou-fake-319d3.firebasestorage.app",
