@@ -1,4 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
+console.log("ENV GEMINI:", import.meta.env.VITE_GEMINI_API_KEY);
 import { AnalysisResult, InputType, VerdictStatus, SourceRank, GroundingSource, UserAnalysisType, AnalysisLens } from "../types";
 import { saveNPSFeedback } from "./feedbackService"; // Importar o serviço de feedback
 
