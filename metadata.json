@@ -1,0 +1,9 @@
+{
+  "name": "Verdade ou Fake — Anti-Manipulação",
+  "version": "1.5.1",
+  "description": "Motor v1.5.1 com Recalibração de Confiabilidade da Auditoria e GROUNDING Canônico.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

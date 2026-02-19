@@ -1,0 +1,28 @@
+{
+  "name": "verdade-ou-fake-anti-manipulacao",
+  "version": "1.5.1",
+  "description": "Motor v1.5.1 com Recalibração de Confiabilidade da Auditoria e GROUNDING Canônico.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.37.0",
+    "firebase": "^12.9.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "recharts": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
